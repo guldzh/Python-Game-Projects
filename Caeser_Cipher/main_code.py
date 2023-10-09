@@ -1,4 +1,4 @@
-import art
+import art_logo
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 def caesar(start_text, shift_amount, cipher_direction):
@@ -14,7 +14,7 @@ def caesar(start_text, shift_amount, cipher_direction):
         end_text += char
   print(f"Here's the {cipher_direction}d result: {end_text}")
 
-print(art.logo)
+print(art_logo.logo)
 
 should_contuniue=True
 while should_contuniue:
